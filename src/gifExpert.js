@@ -13,9 +13,9 @@ import { GifGridd } from './components/gifGridd';
 
 
 
- const GifExpertApp= ()=>{
+ const GifExpertApp= ({defaultCategories=[]})=>{
 
-    const [categories, setCategories]=useState(['OnePunch']);
+    const [categories, setCategories]=useState(defaultCategories);
 
    //const handled= ()=>{
 

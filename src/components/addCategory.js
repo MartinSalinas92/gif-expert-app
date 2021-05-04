@@ -19,7 +19,9 @@ import PropTypes from 'prop-types';
 
         e.preventDefault();
 
-        if(state.length > 2){
+        console.log(pushEnter);
+
+        if(state.trim().length > 2){
 
             setCategories(cats => [state, ...cats])
 
@@ -33,6 +35,7 @@ import PropTypes from 'prop-types';
 
     return (
         <form onSubmit={pushEnter}>
+            <p>{state}</p>
                 <input
                 type="text" 
                 value={state}

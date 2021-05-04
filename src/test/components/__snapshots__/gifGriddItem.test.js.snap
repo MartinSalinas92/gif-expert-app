@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas componente <gifGriddItem /> Debe de mostrar el componente nuevamente  1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="martin"
+    src="http://holajulio.com"
+  />
+  <p
+    className="animate__animated animate__fadeInLeft"
+  >
+    martin
+  </p>
+</div>
+`;

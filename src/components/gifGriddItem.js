@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export function GifGriddItem({img, title, images}) {
 
@@ -13,5 +14,14 @@ export function GifGriddItem({img, title, images}) {
         </div>
     )
 }
+
+GifGriddItem.propTypes={
+
+    title:PropTypes.string.isRequired,
+    images:PropTypes.string.isRequired
+}
+
+
+
 
 
